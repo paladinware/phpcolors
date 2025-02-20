@@ -1,5 +1,5 @@
 {
-    "name": "mexitek/phpcolors",
+    "name": "paladinware/phpcolors",
     "description": "A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.",
     "type": "library",
     "keywords": [
@@ -9,7 +9,7 @@
         "frontend",
         "design"
     ],
-    "homepage": "https://github.com/mexitek/phpColors",
+    "homepage": "https://github.com/paladinware/phpcolors",
     "license": "MIT",
     "authors": [
         {
@@ -19,8 +19,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/mexitek/phpColors/issues",
-        "source": "https://github.com/mexitek/phpColors"
+        "issues": "https://github.com/paladinware/phpcolors/issues",
+        "source": "https://github.com/paladinware/phpcolors"
     },
     "require": {
         "php": "^7.2|^8.0"

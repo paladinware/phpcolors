@@ -1,4 +1,4 @@
-# PHPColors [![Build Status](https://travis-ci.org/mexitek/phpColors.svg?branch=master)](https://travis-ci.org/mexitek/phpColors)
+# PHPColors
 
 > A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.
 
@@ -10,7 +10,7 @@ PHPColors requires PHP version 7.2.0 or greater.
 
 ### Composer
 
-Simply add `mexitek/phpcolors` to `composer.json` using `dev-master`.
+Simply add `paladinware/phpcolors` to `composer.json` using `dev-master`.
 
 ```
 composer require mexitek/phpcolors:dev-master
@@ -170,4 +170,4 @@ echo $myBlue->getCssGradient(10, TRUE);
 - Braunson
 
 # License
-See LICENSE file or [arlo.mit-license.org](http://arlo.mit-license.org)
+See LICENSE file
