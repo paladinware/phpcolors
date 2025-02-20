@@ -32,6 +32,6 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
 
-      - name: Check coding standards using PHPCS
-        run: vendor/bin/phpcs -q -n --report=checkstyle --extensions=php,phpt --warning-severity=0 | cs2pr
+      - name: Check coding standards using Laravel Pint
+        run: vendor/bin/pint --test --format=checkstyle | cs2pr
 
