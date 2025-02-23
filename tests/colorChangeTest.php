@@ -5,7 +5,6 @@ require __DIR__ . '/bootstrap.php';
 use Mexitek\PHPColors\Color;
 use Tester\Assert;
 
-
 $expected = array(
     "336699" => "264d73",
     "913399" => "6d2673"

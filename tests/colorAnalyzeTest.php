@@ -5,7 +5,6 @@ require __DIR__ . '/bootstrap.php';
 use Mexitek\PHPColors\Color;
 use Tester\Assert;
 
-
 $isDark = array(
     "000000" => true,
     "336699" => true,

@@ -1,19 +1,19 @@
-# PHPColors [![Build Status](https://travis-ci.org/mexitek/phpColors.svg?branch=master)](https://travis-ci.org/mexitek/phpColors)
+# PHPColors
 
 > A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.
 
 ## Requirements
 
-PHPColors requires PHP version 7.2.0 or greater.
+PHPColors requires PHP version 8.1.0 or greater.
 
 ## Installation
 
 ### Composer
 
-Simply add `mexitek/phpcolors` to `composer.json` using `dev-master`.
+Simply add `paladinware/phpcolors` to `composer.json`.
 
-```
-composer require mexitek/phpcolors:dev-master
+```bash
+composer require paladinware/phpcolors
 ```
 
 ## How it works
@@ -86,15 +86,15 @@ print_r($myBlue->makeGradient());
 
 use Mexitek\PHPColors\Color;
 
- // Convert my HEX
- $myBlue = Color::hexToHsl("#336699");
+// Convert my HEX
+$myBlue = Color::hexToHsl("#336699");
 
- // Get crazy with the HUE
- $myBlue["H"] = 295;
+// Get crazy with the HUE
+$myBlue["H"] = 295;
 
- // Gimme my new color!!
- echo Color::hslToHex($myBlue);
- // 913399
+// Gimme my new color!!
+echo Color::hslToHex($myBlue);
+// 913399
 
 ```
 
@@ -153,21 +153,12 @@ echo $myBlue->getCssGradient(10, TRUE);
 
 ```
 
-## Github Contributors
-- mexitek
-- danielpataki
-- alexmglover
-- intuxicated
-- pborreli
-- curtisgibby
-- matthewpatterson
-- there4
-- alex-humphreys
-- zaher
-- primozcigler
-- thedavidmeister
-- tylercd100
-- Braunson
+## Authors & Contributors
 
-# License
-See LICENSE file or [arlo.mit-license.org](http://arlo.mit-license.org)
+PHPColors is built with the help of our community. This version is based on the original work of [Mexitek](https://github.com/mexitek).
+
+You can find an overview of everyone who contributed to the repository in the [official GitHub overview](https://github.com/paladinware/phpcolors/graphs/contributors).
+
+## License
+
+PHPColors is released under the [MIT License](LICENSE).
